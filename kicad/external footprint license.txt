@@ -1,0 +1,23 @@
+isw-kbd-lib by is-watering
+	license: MIT License
+	link: https://github.com/is-watering/isw-kbd-lib
+
+Keebio-Parts.pretty by keebio
+	license: MIT License
+	link: https://github.com/keebio/Keebio-Parts.pretty
+
+keyswitches.pretty by Dale Price
+	license: Creative Commons CC-BY-SA
+	link: https://github.com/daprice/keyswitches.pretty
+
+keyboard_reversible.pretty by Gareth Chen
+	license: MIT license
+	link: https://github.com/50an6xy06r6n/keyboard_reversible.pretty
+
+kbd by Kosuke Adachi
+	license: MIT license
+	link: https://github.com/foostan/kbd
+
+promicroReversiblePad.pretty by yuburoll
+	license: MIT license
+	link: https://github.com/yuburoll/promicroReversiblePad.pretty
