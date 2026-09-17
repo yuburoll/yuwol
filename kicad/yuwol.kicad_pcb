@@ -89,7 +89,6 @@
 		)
 		(capping no)
 		(filling no)
-		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -59757,6 +59756,96 @@
 		(uuid "2778898d-3ff5-4e2c-b7d4-cf7a57957692")
 	)
 	(gr_line
+		(start 133.75 79.5)
+		(end 134.25 79.5)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a357e180-e187-475b-9e53-92265050deb3")
+	)
+	(gr_line
+		(start 134 79)
+		(end 133.75 79.5)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9bcaf2de-9ea4-43fb-97b4-11ad63b43389")
+	)
+	(gr_line
+		(start 134.25 79.5)
+		(end 134 79)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b36cc234-3053-4899-84b7-8492f03b5e62")
+	)
+	(gr_line
+		(start 134.75 78.75)
+		(end 135.25 78.75)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "aef1976c-20e8-4f1c-96f9-36d5c1af691d")
+	)
+	(gr_line
+		(start 135 79.25)
+		(end 134.75 78.75)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "01c5d9be-5836-4303-9fce-b2a367091e16")
+	)
+	(gr_line
+		(start 135.25 78.75)
+		(end 135 79.25)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "12b47f5b-3577-467a-9a6e-9e4aa2b093ca")
+	)
+	(gr_line
+		(start 135.75 79.5)
+		(end 136.25 79.5)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "311fdd14-c939-42c8-a4df-1f6edd392191")
+	)
+	(gr_line
+		(start 136 79)
+		(end 135.75 79.5)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4c46fe11-d153-4061-be44-0d641876ab22")
+	)
+	(gr_line
+		(start 136.25 79.5)
+		(end 136 79)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ee629c81-dd55-4da3-a35a-bfd71d1f1140")
+	)
+	(gr_line
 		(start 141.75 77.875)
 		(end 111.375 77.875)
 		(stroke
@@ -60285,6 +60374,96 @@
 		)
 		(layer "B.SilkS")
 		(uuid "ce944678-d919-4a41-9a15-07e95bc491d0")
+	)
+	(gr_line
+		(start 133.75 79.5)
+		(end 134.25 79.5)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "4aa79c03-4cb4-44e6-9eb3-c677e760e1cd")
+	)
+	(gr_line
+		(start 134 79)
+		(end 133.75 79.5)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "09daa291-a709-48fb-bc9e-8310c066915b")
+	)
+	(gr_line
+		(start 134.25 79.5)
+		(end 134 79)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "7ab730af-b74b-4f9f-bf61-66384ad64143")
+	)
+	(gr_line
+		(start 134.75 78.75)
+		(end 135.25 78.75)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "d6d7a281-cd82-44a6-a468-cde3b06e4ff4")
+	)
+	(gr_line
+		(start 135 79.25)
+		(end 134.75 78.75)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "980dd158-dbbf-4f3c-abdd-32f98ecb1343")
+	)
+	(gr_line
+		(start 135.25 78.75)
+		(end 135 79.25)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "150e0c96-afb2-43d6-85ed-4cffc0aebea4")
+	)
+	(gr_line
+		(start 135.75 79.5)
+		(end 136.25 79.5)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "640da83a-4351-49db-a80f-b1610aea96eb")
+	)
+	(gr_line
+		(start 136 79)
+		(end 135.75 79.5)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "10891324-83e6-4e77-810e-83e817eec2af")
+	)
+	(gr_line
+		(start 136.25 79.5)
+		(end 136 79)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "38c1bd33-c325-4107-a50b-3fa0188ce65f")
 	)
 	(gr_line
 		(start 142.75 135)
@@ -65400,6 +65579,19 @@
 			)
 		)
 	)
+	(gr_text "yes, you are all good."
+		(at 124.75 79.75 0)
+		(layer "F.SilkS")
+		(uuid "229edf4c-1051-4aad-9d68-69c93ec81877")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify bottom)
+		)
+	)
 	(gr_text "yuwol 유월"
 		(at 125 75 0)
 		(layer "F.SilkS")
@@ -65550,6 +65742,19 @@
 				(thickness 0.15)
 			)
 			(justify mirror)
+		)
+	)
+	(gr_text "yes, you are all good."
+		(at 124.75 79.75 -0)
+		(layer "B.SilkS")
+		(uuid "4363c23f-ae3b-4c00-92ba-bc93fb366f95")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify bottom mirror)
 		)
 	)
 	(gr_text "Jump When\nLEFT SIDE"
@@ -187465,6 +187670,20 @@
 		(members "411d4ca2-7439-4579-92b5-851fc4d1535d" "8f7369f5-9c49-4a60-9f73-70aee98fad19"
 			"aacbd5a8-1f06-49e3-87a9-9a8b688f4597" "d578a93c-35da-4446-bc8d-b4694fb4b10f"
 			"db33bda9-fe4b-4076-b404-9157edcfb722"
+		)
+	)
+	(group ""
+		(uuid "de8a06db-e383-4391-b3c3-13dcc4504fcf")
+		(members "01c5d9be-5836-4303-9fce-b2a367091e16" "09daa291-a709-48fb-bc9e-8310c066915b"
+			"10891324-83e6-4e77-810e-83e817eec2af" "12b47f5b-3577-467a-9a6e-9e4aa2b093ca"
+			"150e0c96-afb2-43d6-85ed-4cffc0aebea4" "229edf4c-1051-4aad-9d68-69c93ec81877"
+			"311fdd14-c939-42c8-a4df-1f6edd392191" "38c1bd33-c325-4107-a50b-3fa0188ce65f"
+			"4363c23f-ae3b-4c00-92ba-bc93fb366f95" "4aa79c03-4cb4-44e6-9eb3-c677e760e1cd"
+			"4c46fe11-d153-4061-be44-0d641876ab22" "640da83a-4351-49db-a80f-b1610aea96eb"
+			"7ab730af-b74b-4f9f-bf61-66384ad64143" "980dd158-dbbf-4f3c-abdd-32f98ecb1343"
+			"9bcaf2de-9ea4-43fb-97b4-11ad63b43389" "a357e180-e187-475b-9e53-92265050deb3"
+			"aef1976c-20e8-4f1c-96f9-36d5c1af691d" "b36cc234-3053-4899-84b7-8492f03b5e62"
+			"d6d7a281-cd82-44a6-a468-cde3b06e4ff4" "ee629c81-dd55-4da3-a35a-bfd71d1f1140"
 		)
 	)
 	(group ""
