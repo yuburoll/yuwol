@@ -126,6 +126,130 @@
 			(outputdirectory "plateGerber/yuwolPlateR")
 		)
 	)
+	(footprint "MountingHole:ToolingHole_1.152mm"
+		(layer "F.Cu")
+		(uuid "04b95350-9411-4b54-9440-9da12e27a9c2")
+		(at 84 142)
+		(descr "Tooling Hole 1.152mm, 1.3mm solder mask, JLCPCB specification, https://jlcpcb.com/help/article/How-to-add-tooling-holes-for-PCB-assembly-order")
+		(tags "mounting")
+		(property "Reference" "REF**"
+			(at 0 -1.5 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "262815ce-767f-409b-9cf5-fc8414541820")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "ToolingHole_1.152mm"
+			(at 0 1.6 0)
+			(layer "F.Fab")
+			(uuid "1590bcee-ebcb-4611-987e-521aae6db669")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "025b1f40-bd7a-4df5-b398-ee4b3d465171")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "18915c4c-b2f7-4582-bd7c-6f250c09c12d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 0.7 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "f1c26ec0-4ba0-41fb-afcc-37383d4ef588")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "0aab8cc2-7b1b-4af9-be30-fd7a8f03103d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 1.152 1.152)
+			(drill 1.152)
+			(layers "*.Cu" "*.Mask")
+			(solder_mask_margin 0.074)
+			(uuid "758bfa14-95b7-48d0-8577-a842968a8f74")
+		)
+		(zone
+			(layers "F.Cu" "B.Cu")
+			(uuid "8413c644-adaa-437d-bbc3-a32dff00742c")
+			(hatch edge 0.5)
+			(connect_pads
+				(clearance 0)
+			)
+			(min_thickness 0.25)
+			(keepout
+				(tracks not_allowed)
+				(vias allowed)
+				(pads allowed)
+				(copperpour not_allowed)
+				(footprints not_allowed)
+			)
+			(placement
+				(enabled no)
+				(sheetname "")
+			)
+			(fill
+				(thermal_gap 0.5)
+				(thermal_bridge_width 0.5)
+				(island_removal_mode 0)
+			)
+			(polygon
+				(pts
+					(xy 84.7 142) (xy 84.679659 141.832479) (xy 84.619819 141.674694) (xy 84.523958 141.535814) (xy 84.397645 141.423911)
+					(xy 84.248223 141.345489) (xy 84.084376 141.305104) (xy 83.915624 141.305104) (xy 83.751777 141.345489)
+					(xy 83.602355 141.423911) (xy 83.476042 141.535814) (xy 83.380181 141.674694) (xy 83.320341 141.832479)
+					(xy 83.3 142) (xy 83.320341 142.167521) (xy 83.380181 142.325306) (xy 83.476042 142.464186) (xy 83.602355 142.576089)
+					(xy 83.751777 142.654511) (xy 83.915624 142.694896) (xy 84.084376 142.694896) (xy 84.248223 142.654511)
+					(xy 84.397645 142.576089) (xy 84.523958 142.464186) (xy 84.619819 142.325306) (xy 84.679659 142.167521)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(gr_line
 		(start 198 135.75)
 		(end 198.5 135.75)
