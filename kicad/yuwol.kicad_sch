@@ -13036,7 +13036,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1849cba-b990-4b2c-8575-7d4cbf772eac")
-		(property "Reference" "J3"
+		(property "Reference" "J2"
 			(at 43.18 129.5399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13100,7 +13100,7 @@
 		(instances
 			(project "yuwol"
 				(path "/4a418bb4-6e79-4d14-8506-913b5daa414f"
-					(reference "J3")
+					(reference "J2")
 					(unit 1)
 				)
 			)
