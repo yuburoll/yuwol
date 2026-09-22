@@ -1,0 +1,101 @@
+[keyboard]
+name = "yuwol"
+vendor_id = 0x2011
+product_id = 0x6301
+manufacturer = "yuburoll"
+product_name = "yuwol"
+serial_number = "vial:f64c2b3c"
+chip = "nrf52840"
+usb_enable = true
+
+[rmk]
+ble_profiles_num = 3
+
+[ble]
+enabled = true
+
+[split]
+connection = "ble"
+
+[split.central] # left
+battery_adc_pin = "vddh"
+battery_user_description = "Left"
+rows = 5
+cols = 8
+row_offset = 0
+col_offset = 0
+[split.central.matrix]
+matrix_type = "normal"
+row_pins = ["P0_24", "P1_00", "P0_11", "P1_04", "P1_06"]
+col_pins = ["P0_31", "P0_29", "P0_02", "P1_15", "P1_13", "P1_11", "P0_10", "P0_09"]
+row2col = false
+
+[[split.peripheral]] # right
+battery_adc_pin = "vddh"
+battery_user_description = "Right"
+rows = 5
+cols = 8
+row_offset = 0
+col_offset = 8
+[split.peripheral.matrix]
+matrix_type = "normal"
+row_pins = ["P0_24", "P1_00", "P0_11", "P1_04", "P1_06"]
+col_pins = ["P0_09", "P0_10", "P1_11", "P1_13", "P1_15", "P0_02", "P0_29", "P0_31"]
+row2col = false
+
+[behavior.morse]
+hold_on_other_press = true
+hold_timeout = "200ms"
+[behavior.morse.profiles]
+PERM = {permissive_hold = true} 
+NORM = {normal_mode = true}
+
+[layout]
+rows = 5
+cols = 16
+map = """
+    (0, 0, L)   (0, 1, L)   (0, 2, L)   (0, 3, L)   (0, 4, L)   (0, 5, L)   (0, 6, L)   (0, 7, L)       (0, 8, R)   (0, 9, R)   (0,10, R)   (0,11, R)   (0,12, R)   (0,13, R)   (0,14, R)   (0,15, R)
+    (1, 0, L)   (1, 1, L)   (1, 2, L)   (1, 3, L)   (1, 4, L)   (1, 5, L)   (1, 6, L)   (1, 7, L)       (1, 8, R)   (1, 9, R)   (1,10, R)   (1,11, R)   (1,12, R)   (1,13, R)   (1,14, R)   (1,15, R)
+    (2, 0, L)   (2, 1, L)   (2, 2, L)   (2, 3, L)   (2, 4, L)   (2, 5, L)   (2, 6, L)   (2, 7, L)       (2, 8, R)   (2, 9, R)   (2,10, R)   (2,11, R)   (2,12, R)   (2,13, R)               (2,15, R)
+    (3, 0, L)   (3, 1, L)   (3, 2, L)   (3, 3, L)   (3, 4, L)   (3, 5, L)   (3, 6, L)   (3, 7, L)       (3, 8, R)   (3, 9, R)   (3,10, R)   (3,11, R)   (3,12, R)   (3,13, R)   (3,14, R)   (3,15, R)
+    (4, 0, L)   (4, 1, L)               (4, 3, L)   (4, 4, L)   (4, 5, L)   (4, 6, L)   (4, 7, L)       (4, 8, R)   (4, 9, R)   (4,10, R)   (4,11, R)   (4,12, R)   (4,13, R)   (4,14, R)   (4,15, R)
+"""
+
+[keymap]
+layers = 8
+
+[[keymap.layer]]# Layer 0
+name = "base"
+keys = """
+    esc         grv         1           2           3           4           5           6               7           8           9           0           mins        eql         del         bspc
+    del         tab         q           w           e           r           t           y               y           u           i           o           p           lbrc        rbrc        bsls
+    ent         caps        a           s           d           f           g           h               h           j           k           l           scln        quot                    ent
+    MO(1)       lsft        nubs        z           x           c           v           b               b           n           m           ,           .           /           rsft        MO(1)
+    MO(2)       lctl                    lgui        app         lalt        spc         bspc            ent         spc         ralt        rctl        left        down        up          rght
+"""
+
+[[keymap.layer]] # Layer 1
+name = "fn"
+keys = """
+    _           _           F1          F2          F3          F4          F5          F6              F7          F8          F9          f10         F11         F12         bspc        del
+    _           _           _           _           _           _           _           _               no          no          pscr        scrl        brk         up          no          no 
+    _           _           _           _           _           _           _           _               no          no          home        pgup        left        rght                    _
+    _           _           _           _           _           _           _           _               no          no          no          end         pgdn        down        _           _
+    _           _                       _           _           _           _           _               _           _           _           _           home        pgdn        pgup        end
+"""
+
+
+[[keymap.layer]] # Layer 2
+name = "boot"
+keys = """
+    User5       User6       User0       User1       User2       _           _           _               _           _           _           _           _           _           _           _
+    _           _           _           _           _           _           _           _               _           _           _           _           _           _           _           _
+    _           _           _           _           _           _           _           _               _           _           _           _           _           _                       _
+    _           _           _           reboot      bootloader  _           _           _               _           _           _           _           _           _           _           _
+    _           _                       _           _           _           _           _               _           _           _           _           _           _           _           _
+"""
+
+[host]
+vial_enabled = true
+rynk_enabled = false
+unlock_keys = [[0, 0], [0, 15]]
