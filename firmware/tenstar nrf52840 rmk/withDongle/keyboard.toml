@@ -8,6 +8,9 @@ serial_number = "vial:f64c2b3c"
 chip = "nrf52840"
 usb_enable = true
 
+[event]
+sleep_state.subs = 3
+
 [rmk]
 ble_profiles_num = 3
 split_peripherals_num = 2
