@@ -10,6 +10,7 @@ usb_enable = true
 
 [rmk]
 ble_profiles_num = 3
+split_peripherals_num = 2
 
 [ble]
 enabled = true
@@ -19,7 +20,18 @@ use_2m_phy = false
 [split]
 connection = "ble"
 
-[split.central] # left
+[split.central] # dongle
+rows = 0
+cols = 0
+row_offset = 0
+col_offset = 0
+[split.central.matrix]
+matrix_type = "normal"
+row_pins = []
+col_pins = []
+row2col = false
+
+[[split.peripheral]] # left
 battery_adc_pin = "vddh"
 battery_user_description = "Left"
 rows = 5
