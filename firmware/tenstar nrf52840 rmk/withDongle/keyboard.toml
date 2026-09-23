@@ -43,6 +43,7 @@ matrix_type = "normal"
 row_pins = ["P0_24", "P1_00", "P0_11", "P1_04", "P1_06"]
 col_pins = ["P0_31", "P0_29", "P0_02", "P1_15", "P1_13", "P1_11", "P0_10", "P0_09"]
 row2col = false
+bootmagic = [0, 0]
 
 [[split.peripheral]] # right
 battery_adc_pin = "vddh"
@@ -56,6 +57,7 @@ matrix_type = "normal"
 row_pins = ["P0_24", "P1_00", "P0_11", "P1_04", "P1_06"]
 col_pins = ["P0_09", "P0_10", "P1_11", "P1_13", "P1_15", "P0_02", "P0_29", "P0_31"]
 row2col = false
+bootmagic = [0, 7]
 
 [behavior.morse]
 hold_on_other_press = true
