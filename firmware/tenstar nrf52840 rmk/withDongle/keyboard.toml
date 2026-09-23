@@ -11,10 +11,11 @@ usb_enable = true
 [rmk]
 ble_profiles_num = 3
 split_peripherals_num = 2
+split_central_sleep_timeout_seconds = 600
 
 [ble]
 enabled = true
-default_tx_power = 4
+default_tx_power = 8
 use_2m_phy = false
 
 [split]
@@ -38,7 +39,7 @@ rows = 5
 cols = 8
 row_offset = 0
 col_offset = 0
-[split.central.matrix]
+[split.peripheral.matrix]
 matrix_type = "normal"
 row_pins = ["P0_24", "P1_00", "P0_11", "P1_04", "P1_06"]
 col_pins = ["P0_31", "P0_29", "P0_02", "P1_15", "P1_13", "P1_11", "P0_10", "P0_09"]
