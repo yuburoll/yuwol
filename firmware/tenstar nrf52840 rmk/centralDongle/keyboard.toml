@@ -14,7 +14,6 @@ sleep_state.subs = 3
 [rmk]
 ble_profiles_num = 3
 split_peripherals_num = 2
-split_central_sleep_timeout_seconds = 600
 
 [ble]
 enabled = true
