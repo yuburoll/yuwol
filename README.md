@@ -1,4 +1,4 @@
-![yuwol](images)
+![yuwol](images/yuwolProfile2.jpg)
 
 # yuwol
 row staggered 60% hotswappable keyboard with reversible PCB, little ergo boost of [ilwol](https://github.com/yuburoll/ilwol)
