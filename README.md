@@ -73,7 +73,7 @@ for wireless build:
 - 14x M2x6 screws / or M2x3x3 heat inserts and M2x6 bolts
 
 
-for dongle:
+dongle:
 
 - 1x pro micro form factor dev board, with wireless chipset
 
