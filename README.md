@@ -49,7 +49,7 @@ common:
 
 for wired build:
 
-- 2x pro micro form factor dev board, with wireless chipset
+- 2x pro micro form factor dev board
 
 - 2x USB-C 6 pin jack, top mount
 
@@ -60,7 +60,7 @@ for wired build:
 
 for wireless build:
 
-- 2x pro micro form factor dev board
+- 2x pro micro form factor dev board, with wireless chipset
 
 - 2x 523450 battery, with molex picoblade 1.25mm pitch, 2pin
 
@@ -73,11 +73,22 @@ for wireless build:
 - 14x M2x6 screws / or M2x3x3 heat inserts and M2x6 bolts
 
 
+for dongle:
+
+- 1x pro micro form factor dev board, with wireless chipset
+
+- 1x printed dongle case sets, 2 parts total, provided from the repo
+
+- 2x M2x6 screws / or M2x3x3 heat inserts and M2x6 bolts
+
+- 3x 10mm bumpon stickers
+
+
 ## Differences between case variations
 
-- Screw: 1.5 pi mounting holes for screw
+- Screw: 1.5 pi mounting holes for screws
 
-- Insert: 3 pi mounting holes for heat insert
+- Insert: 3 pi mounting holes for heat inserts
 
 ## Build Guides and Miscellaneous
 

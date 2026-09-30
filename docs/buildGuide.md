@@ -19,6 +19,8 @@ The side where components will be placed is treated as the back, and the side wi
 
 ![yuwolBuildPCB](../images/yuwolBuildPCB.jpg)
 
+Note: The PCBs of the photo above are prototype. There are a little difference between release; the top ouside of screw hole leafs are mirrored because of rigidity. 
+
 ## Soldering the Diodes
 Solder the diodes. The photos show SMD diodes being used, but THT diodes can also be used.
 
