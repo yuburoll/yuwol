@@ -62,9 +62,9 @@ for wireless build:
 
 - 2x pro micro form factor dev board, with wireless chipset
 
-- 2x 523450 battery, with molex picoblade 1.25mm pitch, 2pin
+- 2x 523450 battery, with molex picoblade 1.25mm pitch male, 2pin
 
-- 2x molex picoblade 1.25mm pitch, 2pin
+- 2x molex picoblade 1.25mm pitch female, 2pin
 
 - 2x SS-12D00 switches
 
