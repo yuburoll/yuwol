@@ -11,6 +11,7 @@ This document was translated by generative AI, so some text may be misleading.
 
 ### Additional Resources
 [**Soldering Tips**](solderingTip.md)
+
 [**Dongle Build Guide**](dongleBuild.md)
 
 ## PCB Preparation
