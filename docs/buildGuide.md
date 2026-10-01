@@ -56,12 +56,12 @@ As with the diodes and hot-swap sockets, apply a solder blob to one side of the 
 ## (Wired) Soldering the USB-C Jack and the Jumper
 Refer to the following photos to identify where the USB-C jack will be placed. The jack will be placed on the back side.
 
-![yuwolBuildUSB0](../images/yuwolBuildUSB0.jpg)
+![yuwolBuildUSB1](../images/yuwolBuildUSB1.jpg)
 
 Solder the USB-C jack on the back side. Apply solder blobs to the pads on the back side and heat them. Then, solder the remaining legs.
 
-![yuwolBuildUSB1](../images/yuwolBuildUSB1.jpg)
 ![yuwolBuildUSB2](../images/yuwolBuildUSB2.jpg)
+![yuwolBuildUSB3](../images/yuwolBuildUSB3.jpg)
 
 On the left PCB, bridge the jumpers located at the bottom. Apply enough solder so that a blob forms on top.
 
