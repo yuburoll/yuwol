@@ -11,6 +11,7 @@ This document was translated by generative AI, so some text may be misleading.
 
 ### Additional Resources
 [**Soldering Tips**](solderingTip.md)
+[**Dongle Build Guide**](dongleBuild.md)
 
 ## PCB Preparation
 Prepare two PCBs for the yuwol. Since these are reversible PCBs, be careful to place components on different sides for each board.
