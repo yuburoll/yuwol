@@ -105,7 +105,8 @@ Bridge the header pins to the adjacent pads as if soldering jumpers. Since a lar
 ## Check PCB and flash firmware before Assembly
 One side of a finished wireless PCB looks like the following image.
 
-![yuwolBuildCheck](../images/yuwolBuildCheck.jpg)
+![yuwolBuildCheck0](../images/yuwolBuildCheck0.jpg)
+![yuwolBuildCheck1](../images/yuwolBuildCheck1.jpg)
 
 If you're a keyboard enthusiast, I'd recommend installing stabilizers at keycap positions 2u or larger, as shown in the following photo.
 
