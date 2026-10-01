@@ -62,9 +62,9 @@ for wireless build:
 
 - 2x pro micro form factor dev board, with wireless chipset
 
-- 2x 523450 battery, with molex picoblade 1.25mm pitch, 2pin
+- 2x 523450 battery, with molex picoblade 1.25mm pitch male, 2pin
 
-- 2x molex picoblade 1.25mm pitch, 2pin
+- 2x molex picoblade 1.25mm pitch female, 2pin
 
 - 2x SS-12D00 switches
 
@@ -73,7 +73,7 @@ for wireless build:
 - 14x M2x6 screws / or M2x3x3 heat inserts and M2x6 bolts
 
 
-for dongle:
+dongle:
 
 - 1x pro micro form factor dev board, with wireless chipset
 
@@ -111,6 +111,6 @@ all codes follow MIT license.
 
 all designs and the hardware board follow CC BY-SA 4.0 license.
 
-Markdown documents and photos in docs/images folder are copyrighted, all rights reserved. you may use it for [fair use]().
+Markdown documents and photos in docs/images folder are copyrighted, all rights reserved. You can use it for [fair use](https://www.copyright.gov/fair-use/).
 
 If you want to make a commercial product, it would be appreciated if you sponsor some bucks for me.
