@@ -1,11 +1,9 @@
 # Build Guide
 This is the build guide for yuwol.
 
-This build guide contains photos of the prototype version. The newest version has the following differences:
+This build guide contains photos of the prototype version.
 
-- The corner screws on the outer top have been moved 1u inward, and so has the PCB design.
-
-- The lower pinky modifier keys are not changeable, as marked in black on the prototype PCB.
+Note: The PCBs of the photo above are prototype. There are a little difference between release; two outside screw hole leafs are mirrored because of rigidity. 
 
 This document was translated by generative AI, so some text may be misleading.
 
@@ -20,8 +18,6 @@ Prepare two PCBs for the yuwol. Since these are reversible PCBs, be careful to p
 The side where components will be placed is treated as the back, and the side without components is treated as the front. **All components go on the back side, except battery switches for wireless. Please be careful when soldering.**
 
 ![yuwolBuildPCB](../images/yuwolBuildPCB.jpg)
-
-Note: The PCBs of the photo above are prototype. There are a little difference between release; two outside screw hole leafs are mirrored because of rigidity. 
 
 ## Soldering the Diodes
 Solder the diodes. The photos show SMD diodes being used, but THT diodes can also be used.
